@@ -4,7 +4,7 @@
 
 # 🧵 Welcome to Pixel-Tailor-CN (原点系列)
 
-> **“为不完美的体验，做精细的缝补。”** 
+> **”为不完美的体验，做精细的缝补。”** 
 
 Pixel-Tailor-CN 是一个专注于提升 Google Pixel 设备在大陆地区使用体验的开源工具矩阵（即 **原点系列**）。我们坚持 **Native Android** 的开发哲学，采用纯粹的 Material Design 与现代化的 Android 技术栈，致力于在不破坏系统完整性的前提下，填补原生系统与国内毒瘤生态之间的鸿沟。
 
