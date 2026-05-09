@@ -1,3 +1,7 @@
+<div align=”center”>
+  <img src=”../images/icon.svg” alt=”Pixel-Tailor-CN Logo” width=”120”/>
+</div>
+
 # 🧵 Welcome to Pixel-Tailor-CN (原点系列)
 
 > **“为不完美的体验，做精细的缝补。”** 
