@@ -1,5 +1,5 @@
-<div align=”center”>
-  <img src=”../images/icon.svg” alt=”Pixel-Tailor-CN Logo” width=”120”/>
+<div align="center">
+  <img src="https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/icon.svg" alt="Pixel-Tailor-CN Logo" width="120"/>
 </div>
 
 # 🧵 Welcome to Pixel-Tailor-CN (原点系列)
