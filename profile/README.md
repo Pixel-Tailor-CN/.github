@@ -1,48 +1,53 @@
 <div align="center">
-  <img src="https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/icon.svg" alt="Pixel-Tailor-CN Logo" width="120"/>
+  <img src="https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/icon.svg" alt="Pixel-Tailor-CN Logo" width="112" />
+
+  <h1>Pixel-Tailor-CN</h1>
+
+  <p><strong>为不完美的体验，做精细的缝补。</strong></p>
+  <p>一组面向国内 Pixel 用户的开源工具，补齐来电、短信、网速、定位与闹钟等本地化使用场景。</p>
+
+  <p>
+    <a href="https://pixel.mystery0.app">官方网站</a>
+    ·
+    <a href="https://t.me/pixel_tailor_cn">Telegram 频道</a>
+    ·
+    <a href="https://github.com/Pixel-Tailor-CN">GitHub 组织</a>
+  </p>
 </div>
 
-# 🧵 Welcome to Pixel-Tailor-CN
+## 原点系列
 
-> **“为不完美的体验，做精细的缝补。”** 
+每个工具都只解决一个具体问题，尽量保留原生 Android 的使用方式，并优先在设备本地处理数据。
 
-[https://pixel.mystery0.app](https://pixel.mystery0.app)
+| 应用 | 说明 | 入口 |
+| --- | --- | --- |
+| [Pixel Telo](https://github.com/Pixel-Tailor-CN/PixelTelo) | 专为 Pixel 和类原生 Android 设计的来电识别与拦截应用，与系统拨号器深度集成。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.telo) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelTelo) |
+| [Pixel Text](https://github.com/Pixel-Tailor-CN/PixelText) | 面向国内 Pixel 用户的 SMS/MMS 短信应用，把验证码、账单、快递等服务短信整理成卡片。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.text) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelText) |
+| [Pixel Meter](https://github.com/Pixel-Tailor-CN/PixelMeter) | 专为 Pixel 和原生 Android 设计的网速监控工具，过滤 VPN 虚拟接口，显示更准确的实时速度。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.meter) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelMeter) |
+| [Pixel Geo](https://github.com/Pixel-Tailor-CN/PixelGeo) | 专业罗盘与定位工具，提供真北/磁北切换、WGS-84 坐标和水平仪，传感器与定位数据本地处理。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.geo) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelGeo) |
+| [Pixel Snooze](https://github.com/Pixel-Tailor-CN/PixelSnooze) | 本地优先的闹钟辅助工具，在休息日自动触发 Google/AOSP 时钟通知里的跳过或关闭操作。 | [GitHub](https://github.com/Pixel-Tailor-CN/PixelSnooze) |
 
-Pixel-Tailor-CN 是一个专注于提升 Google Pixel 设备在大陆地区使用体验的开源工具矩阵（即 **原点系列**）。我们坚持 **Native Android** 的开发哲学，采用纯粹的 Material Design 与现代化的 Android 技术栈，致力于在不破坏系统完整性的前提下，填补原生系统与国内毒瘤生态之间的鸿沟。
+更多下载方式、隐私政策和项目状态请访问 [pixel.mystery0.app](https://pixel.mystery0.app)。
 
-### 📱 Our Toolbox
+## 项目原则
 
-目前“原点系列”包含以下核心工具，它们各司其职，共同构建更完善的 Pixel 体验：
+- **原生体验**：尽量贴近 Pixel 与原生 Android 的交互习惯。
+- **本地优先**：能在设备端完成的识别、规则和处理，不依赖远端服务。
+- **最小权限**：只申请功能必要权限，避免不必要的数据收集。
+- **开源透明**：核心项目在 GitHub 开放，欢迎反馈问题和参与共建。
 
-*   **[Pixel Telo](https://github.com/Pixel-Tailor-CN/PixelTelo)**: 专为 Pixel 打造的来电识别与拦截应用，本地优先处理，隐私零泄露。
-*   **[Pixel Text](https://github.com/Pixel-Tailor-CN/PixelText)**: 为 Pixel 打造的本地智能短信应用，验证码、账单、快递一眼看清。
-*   **[Pixel Meter](https://github.com/Pixel-Tailor-CN/PixelMeter)**: 专为 Pixel 和原生 Android 设计的精准网速指示器。
-*   **[Pixel Geo](https://github.com/Pixel-Tailor-CN/PixelGeo)**: 跨平台罗盘与坐标工具，提供高精度方位显示、WGS-84 原始坐标（无偏移）与多种坐标格式切换。
+## 支持项目
 
-### 🛠️ Tech Stack & Philosophy | 技术哲学
+如果这些工具节省了你的时间，可以通过支付宝或微信自愿赞助。赞助将用于功能优化、问题修复、发布维护和必要的开发成本。
 
-本组织的全部项目均坚持以下开发原则：
-- **Modern UI:** 优先使用 **Jetpack Compose** 构建，深度契合 Material You 动态色彩。
-- **Solid Architecture:** 基于 **Kotlin** 编写，辅以 Koin 等现代依赖注入框架。
-- **Privacy First:** 遵循最小权限原则，不收集任何不必要的用户隐私数据。
-- **Native Experience:** 追求极致的原生手感与流畅度。
-
-### 捐赠支持
-
-感谢您使用我的项目！如果您觉得我的项目对您有帮助，欢迎通过以下方式捐赠支持我。
-
-您的支持将帮助我优化功能、修复问题，并为您带来更好的使用体验！感谢您的支持！
+赞助不是使用条件，应用的下载、开源与隐私承诺不受影响。
 
 | 支付宝 | 微信 |
-| :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| ![alipay](https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/alipay.jpg) | ![wechat](https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/wechat.png) |
+| :---: | :---: |
+| <img src="https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/alipay.jpg" alt="支付宝收款码" width="220" /> | <img src="https://github.com/Pixel-Tailor-CN/.github/raw/refs/heads/main/images/wechat.png" alt="微信收款码" width="220" /> |
 
-### ⚖️ Disclaimer | 免责声明
+扫码前请确认收款方信息，按需自愿支持。
 
-Pixel-Tailor-CN is a community-driven, independent, and non-profit open-source initiative. 
-**"Pixel" is a trademark of Google LLC.** This organization and its projects are **NOT** affiliated with, endorsed by, sponsored by, or officially associated with Google LLC in any way. 
+## 免责声明
 
-本项目仅供学习与技术交流，旨在为国内 Android 极客提供更佳的设备体验。
-
----
-*Crafted with ❤️ by [Mystery0](https://github.com/Mystery00) & Community.*
+Pixel-Tailor-CN 是独立开源项目，与 Google LLC 无关；“Pixel” 是 Google LLC 的注册商标。
