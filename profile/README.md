@@ -4,7 +4,7 @@
   <h1>Pixel-Tailor-CN</h1>
 
   <p><strong>为不完美的体验，做精细的缝补。</strong></p>
-  <p>一组面向国内 Pixel 用户的开源工具，补齐来电、短信、网速、定位与闹钟等本地化使用场景。</p>
+  <p>一组面向国内 Pixel 用户的开源工具，补齐来电、短信、网速、定位、闹钟与 IMS 配置等本地化使用场景。</p>
 
   <p>
     <a href="https://pixel.mystery0.app">官方网站</a>
@@ -26,6 +26,7 @@
 | [Pixel Meter](https://github.com/Pixel-Tailor-CN/PixelMeter) | 专为 Pixel 和原生 Android 设计的网速监控工具，过滤 VPN 虚拟接口，显示更准确的实时速度。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.meter) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelMeter) |
 | [Pixel Geo](https://github.com/Pixel-Tailor-CN/PixelGeo) | 专业罗盘与定位工具，提供真北/磁北切换、WGS-84 坐标和水平仪，传感器与定位数据本地处理。 | [Google Play](https://play.google.com/store/apps/details?id=vip.mystery0.pixel.geo) · [GitHub](https://github.com/Pixel-Tailor-CN/PixelGeo) |
 | [Pixel Snooze](https://github.com/Pixel-Tailor-CN/PixelSnooze) | 本地优先的闹钟辅助工具，在休息日自动触发 Google/AOSP 时钟通知里的跳过或关闭操作。 | [GitHub](https://github.com/Pixel-Tailor-CN/PixelSnooze) |
+| [TensorIMS](https://github.com/Pixel-Tailor-CN/TensorIMS) | 面向搭载 Google Tensor 芯片的 Pixel，通过 Shizuku 管理 VoLTE、VoWiFi 等通话与网络配置，无需 root。 | [下载最新版](https://github.com/Pixel-Tailor-CN/TensorIMS/releases/latest) · [GitHub](https://github.com/Pixel-Tailor-CN/TensorIMS) |
 
 更多下载方式、隐私政策和项目状态请访问 [pixel.mystery0.app](https://pixel.mystery0.app)。
 
